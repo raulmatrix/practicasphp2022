@@ -43,6 +43,10 @@ for($j=0;$j<count($carrerasincos);$j++){
 
 //array asociativo
 
-$estudiantes = array("Jose"=>20,"Pedro"=>18,"Lucia"=>19,"Maria"=>25);
+$estudiantes = array("Jose"=>'30',"Alicia"=>'20',"Josefina"=>'15');
 
+foreach($estudiantes as $z => $zvalor){
+    echo "El estudiante ".$z." tiene ".$zvalor." años"."<br>";
+ 
+}
 ?>
